@@ -1,0 +1,18 @@
+body {
+    background-color: gray;
+}
+
+img {
+    width: 33.33%;
+    height: 20dvh;
+    float: inline-start;
+    vertical-align: top;
+    object-fit: fill;
+}
+
+#topImages {
+    height: 20vh;
+    outline: 10px inset darkred;
+    border: 10px double rgb(167, 96, 11);
+    background-color: silver;
+}
