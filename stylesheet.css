@@ -12,26 +12,26 @@ img {
 
 #top-images {
     height: 20vh;
-    outline: 10px inset darkred;
+    outline: 10px inset darkgreen;
     border: 10px double rgb(167, 96, 11);
     background-color: darkgray;
 }
 
 h2 {
     text-align: center;
-    color: rgb(255, 190, 190);
+    color: black;
     font-size: 36px;
 }
 
 .div-class {
-    border: 2px solid black;
+    border: 10px inset rgb(167, 96, 11);
     height: 50dvh;
     width: 30%;
     margin-top: 4.25vh;
     margin-left: 2.25vw;
     float: inline-start;
     vertical-align: middle;
-    background-color: gray;
+    background-color: rgb(160, 160, 160);
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -41,6 +41,7 @@ h2 {
     position: relative;
     width: 50%;
     left: 25%;
+    font-size: 24px;
 }
 
 .p-class {
