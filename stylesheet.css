@@ -32,12 +32,20 @@ h2 {
     float: inline-start;
     vertical-align: middle;
     background-color: gray;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #middle-paragraph {
-    text-align: center;
     color: darkred;
     position: relative;
     width: 50%;
     left: 25%;
+}
+
+.p-class {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 5px;
+    margin-top: 40px;
 }
