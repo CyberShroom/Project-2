@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: rgb(244 244 244);
 }
 
 img {
@@ -10,9 +10,27 @@ img {
     object-fit: fill;
 }
 
-#topImages {
+#top-images {
     height: 20vh;
     outline: 10px inset darkred;
     border: 10px double rgb(167, 96, 11);
-    background-color: silver;
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+    font-size: 48px;
+}
+
+.divClass {
+
+}
+
+#middle-paragraph {
+    text-align: center;
+    color: darkred;
+    position: relative;
+    width: 50%;
+    left: 25%;
 }
