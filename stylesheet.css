@@ -17,14 +17,21 @@ img {
     background-color: darkgray;
 }
 
-h1 {
+h2 {
     text-align: center;
-    color: darkred;
-    font-size: 48px;
+    color: rgb(255, 190, 190);
+    font-size: 36px;
 }
 
-.divClass {
-
+.div-class {
+    border: 2px solid black;
+    height: 50dvh;
+    width: 30%;
+    margin-top: 4.25vh;
+    margin-left: 2.25vw;
+    float: inline-start;
+    vertical-align: middle;
+    background-color: gray;
 }
 
 #middle-paragraph {
