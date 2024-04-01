@@ -3,15 +3,15 @@ body {
 }
 
 img {
-    float: left;
-    width: 33.33%;
-    height: 20vh;
-    vertical-align: top;
-    object-fit: fill;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #top-images {
-    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     outline: 10px inset darkgreen;
     border: 10px double rgb(167, 96, 11);
     background-color: darkgray;
