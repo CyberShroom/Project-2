@@ -25,11 +25,9 @@ h2 {
 
 .div-class {
     border: 10px inset rgb(167, 96, 11);
-    height: 50vh;
     margin-top: 4.25vh;
     margin-left: 1.125vw;
     margin-right: 1.125vw;
-    float: left;
     vertical-align: middle;
     background-color: rgb(160, 160, 160);
     overflow-y: auto;
@@ -53,5 +51,6 @@ h2 {
 
 #paragraph-div {
     grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(1, 95%);
     height: 60vh;
 }
