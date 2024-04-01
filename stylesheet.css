@@ -3,9 +3,9 @@ body {
 }
 
 img {
+    float: left;
     width: 33.33%;
-    height: 20dvh;
-    float: inline-start;
+    height: 20vh;
     vertical-align: top;
     object-fit: fill;
 }
@@ -25,11 +25,12 @@ h2 {
 
 .div-class {
     border: 10px inset rgb(167, 96, 11);
-    height: 50dvh;
+    height: 50vh;
     width: 30%;
     margin-top: 4.25vh;
-    margin-left: 2.25vw;
-    float: inline-start;
+    margin-left: 1.125vw;
+    margin-right: 1.125vw;
+    float: left;
     vertical-align: middle;
     background-color: rgb(160, 160, 160);
     overflow-y: auto;
