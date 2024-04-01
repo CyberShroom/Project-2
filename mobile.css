@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(244 244 244);
+}
+
+img {
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#top-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    outline: 10px inset darkgreen;
+    border: 10px double rgb(167, 96, 11);
+    background-color: darkgray;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
+.div-class {
+    border: 10px inset rgb(167, 96, 11);
+    height: 50vh;
+    width: 30%;
+    margin-top: 4.25vh;
+    margin-left: 1.125vw;
+    margin-right: 1.125vw;
+    float: left;
+    vertical-align: middle;
+    background-color: rgb(160, 160, 160);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#middle-paragraph {
+    color: darkred;
+    position: relative;
+    font-size: 24px;
+}
+
+.p-class {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
